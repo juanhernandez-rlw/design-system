@@ -4,8 +4,8 @@
   --ds-color-border: #e7e5e4;
   --ds-color-text: #1c1917;
   --ds-color-text-muted: #78716c;
-  --ds-color-primary: #16a34a;
-  --ds-color-primary-hover: #15803d;
+  --ds-color-primary: #ec4899;
+  --ds-color-primary-hover: #db2777;
   --ds-color-primary-text: #ffffff;
   --ds-color-danger: #dc2626;
 
@@ -112,7 +112,7 @@
 .ds-input:focus {
   outline: none;
   border-color: var(--ds-color-primary);
-  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.18);
+  box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.18);
 }
 .ds-input--error {
   border-color: var(--ds-color-danger);
