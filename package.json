@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "build": "tsc && cp src/styles.css dist/styles.css",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
